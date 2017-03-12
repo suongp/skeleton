@@ -1,0 +1,79 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    asset (0.2.0)
+      activesupport
+      rack
+      sass
+      therubyracer
+      uglifier
+    bson (4.2.1)
+    concurrent-ruby (1.0.5)
+    execjs (2.7.0)
+    ffi (1.9.17)
+    fuprint (0.1.3)
+      rack
+    i18n (0.8.1)
+    libv8 (3.16.14.19)
+    listen (3.1.5)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
+    minitest (5.10.1)
+    mongo (2.4.1)
+      bson (>= 4.2.1, < 5.0.0)
+    mongocore (0.1.1)
+      activesupport
+      mongo (~> 2.2)
+      request_store
+    puma (3.7.0)
+    rack (1.6.5)
+    rack-cache (1.2)
+      rack (>= 0.4)
+    rack-protection (1.5.3)
+      rack
+    rb-fsevent (0.9.8)
+    rb-inotify (0.9.8)
+      ffi (>= 0.5.0)
+    ref (2.0.0)
+    request_store (1.3.2)
+    rerun (0.11.0)
+      listen (~> 3.0)
+    ruby_dep (1.5.0)
+    sass (3.4.23)
+    sinatra (1.4.8)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    terminal-notifier (1.7.1)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
+    thread_safe (0.3.6)
+    tilt (2.0.6)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    uglifier (3.1.7)
+      execjs (>= 0.3.0, < 3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  asset
+  fuprint
+  mongocore
+  puma
+  rack-cache
+  rb-fsevent
+  rerun
+  sinatra
+  terminal-notifier
+
+BUNDLED WITH
+   1.13.7
